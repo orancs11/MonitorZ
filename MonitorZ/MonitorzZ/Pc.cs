@@ -5,6 +5,7 @@ namespace MonitorzZ;
 
 public class Pc : IClient
 {
+    
     [Required]
     private string Port { get; set; }
     [Required]

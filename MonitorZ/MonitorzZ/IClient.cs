@@ -7,6 +7,7 @@ namespace MonitorzZ;
 
 public interface IClient
 {
+    
     public bool Connect(string port, string ip);
     public bool Disconnect();
     public bool SendData();

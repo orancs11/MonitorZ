@@ -6,7 +6,7 @@ namespace MonitorzZ;
  */
 
 
-public class MonitorService
+public static class MonitorService
 {
     
 }

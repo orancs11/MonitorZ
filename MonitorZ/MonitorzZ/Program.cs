@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System.Net.Sockets;
+using MonitorzZ;
 
-Console.WriteLine("Hello, World!");
+Server server = new Server();
+
+Socket handler = server.OpenConnection().Result;
